@@ -1,6 +1,6 @@
 ARG BASE_CONTAINER=ubuntu:18.04
 FROM $BASE_CONTAINER
-FROM ubuntu:18.04
+
 LABEL maintainer="Singh Sukhjnder <ss.singh@hotmail.it>"
 
 ENV DEBIAN_FRONTEND noninteractive
