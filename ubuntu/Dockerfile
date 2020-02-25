@@ -12,7 +12,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # Install dependencies
 RUN apt-get update \
-  && apt-get install build-essential wget curl git -y \
+  && apt-get install build-essential wget curl git net-tools -y \
   && apt-get update \
   && apt-get install -y apt-transport-https ca-certificates
 
